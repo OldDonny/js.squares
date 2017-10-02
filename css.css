@@ -1,13 +1,12 @@
 
 button{
-    position: absolute;
+    display: block;
 }
 
-div{
-    display: inline-block;
+.box{
+    float: left;
     position: relative;
     top: 3em;
-   
     margin: 1em;
     height: 6em;
     width: 6em;
@@ -15,12 +14,13 @@ div{
 }
 
 h1{
-    display: none;
     text-align: center;
     color: black;
     font-size: 2em;;
 }
 
-div:hover h1{
-    display: inline-block;
+.info_blast{
+    height: 12em;
+    width: auto;
+    background-color: lightseagreen;
 }
